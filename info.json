@@ -1,11 +1,11 @@
 {
   "name": "janky-fusion",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "title": "Janky Fusion",
   "author": "fgardt",
   "contact": "https://discord.gg/WXMKr73n8s",
   "homepage": "https://github.com/fgardt/factorio-janky-fusion",
-  "description": "Janky-style implementation of Space-Age Fusion Power.\nWORK IN PROGRESS!\nONLY HAS BUILDINGS! NOT FUNCTIONAL YET!",
+  "description": "Janky-style implementation of Space-Age Fusion Power.",
   "factorio_version": "1.1",
   "dependencies": [
     "base"
