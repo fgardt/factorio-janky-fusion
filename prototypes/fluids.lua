@@ -58,7 +58,7 @@ local plasma = {
 
     default_temperature = 0,
     max_temperature = 10000000, -- realistic max is 6 million, achievable is 7 million (handfeeding)
-    heat_capacity = "0.833333J",
+    heat_capacity = (consts.reactor_base_power / consts.plasma_base_temp / consts.plasma_units_per_second) .. "J",
 
     base_color = {
         r = 1.0,

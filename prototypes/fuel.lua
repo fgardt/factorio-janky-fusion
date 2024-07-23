@@ -16,7 +16,7 @@ local item = {
     stack_size = 50,
 
     fuel_category = category.name,
-    fuel_value = "80GJ",
+    fuel_value = consts.reactor_base_power * consts.fuel_cell_burn_time .. "J",
 
     icon = consts.graphics_path .. "fusion-fuel-cell.png",
     icon_size = 64,

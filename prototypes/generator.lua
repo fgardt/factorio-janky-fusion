@@ -141,17 +141,17 @@ local entity = {
     fluid_boxes = {
         {
             production_type = "input",
-            pipe_picture = assembler3pipepictures(),
-            pipe_covers = pipecoverspictures(),
+            -- pipe_covers = pipecoverspictures(),
+            -- pipe_picture = assembler3pipepictures(),
             base_area = 1,
-            base_level = -1,
+            base_level = -5,
             height = 2,
             pipe_connections = gen_plasma_positions,
         },
         {
             production_type = "output",
-            pipe_picture = assembler3pipepictures(),
             pipe_covers = pipecoverspictures(),
+            -- pipe_picture = assembler3pipepictures(),
             base_area = 1,
             base_level = 1,
             height = 2,
@@ -314,10 +314,10 @@ local gen = {
 
     fluid_box = {
         production_type = "input",
-        pipe_picture = assembler3pipepictures(),
-        pipe_covers = pipecoverspictures(),
+        -- pipe_covers = pipecoverspictures(),
+        -- pipe_picture = assembler3pipepictures(),
         base_area = 2,
-        base_level = 0,
+        base_level = -5,
         height = 1,
         filter = consts.prefix .. "plasma",
         pipe_connections = gen_plasma_positions,
